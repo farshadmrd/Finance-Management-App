@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tmrine1</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<header>
+    FINANCE MANAGEMENT APPLICATION
+</header>
+<section class="flex">
+    <section id="left">
+        <div id="top">
+            please enter your principal Amount
+            <div>
+                <input id="principal" placeholder="just number"><br>
+                <span id="result"></span>
+                <input id="add" type="submit" value="add">
+            </div>
+        </div>
+
+
+        <div id="bottom">
+            pleas enter name of expense<br>
+            <input id="esm-hazine" type="text" placeholder="just text"><br>
+            please enter expense amount<br>
+            <input id="meghdar-hazine" type="number" placeholder="just number"><br>
+            <span id="error"></span>
+            <input id="btn-expense" type="submit" value="add expense">
+        </div>
+    </section>
+
+    <section class="flex-col" id="right">
+
+        <section class="flex" id="right-top">
+
+
+            <div class="flex-col padding-20px">
+                <h2>INITIAL AMOUNT</h2>
+                <div style="color: green" class="costs">
+                    $<span id="initial">0</span>
+                </div>
+                <h3 class="margin-left10">expense name</h3>
+            </div>
+
+
+            <div class="flex-col padding-20px">
+                <h2>EXPENSES</h2>
+                <div style="color: red" class="costs">
+                    $<span id="expenses">0</span>
+                </div>
+                <h3>expense value</h3>
+            </div>
+
+
+            <div class="flex-col padding-20px">
+                <h2>BALANCE</h2>
+                <div class="costs">
+                    <span>$</span>
+                    <span id="balance">0</span>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="right-bottom">
+            <!--div besaze ke to verison5 ast-->
+        </section>
+
+
+    </section>
+</section>
+
+
+<div class="modal fade in" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <header class="modal-header">
+                <h1 class="modal-title">Welcome</h1>
+            </header>
+            <section class="modal-body">
+                name of expense:
+                <input id="change-name" type="text" placeholder="just insert text"><br>
+                expense amount:
+                <input id="change-amount" type="number" placeholder="just insert number">
+            </section>
+            <footer class="modal-footer">
+                <button class="btn btn-danger pull-left" data-dismiss="modal">Cancel</button>
+                <button id="accept" class="btn btn-success pull-right">Accept</button>
+                <span id="error-change"></span>
+            </footer>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/javascripts.js"></script>
+
+</body>
+</html>

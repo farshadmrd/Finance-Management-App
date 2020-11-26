@@ -1,0 +1,78 @@
+@charset "utf-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.flex{
+	display: flex;
+}
+.flex-col{
+	display: flex;
+	flex-direction: column;
+}
+.padding-20px{
+	padding: 20px;
+}
+
+
+header {font-size: 40px;
+	margin-left: 100px;
+}
+
+#top { 
+	width: 500px;
+	height: 150px;
+	font-size: 20px;
+	margin-left: 100px;
+	margin-top: 50px;
+	border: 3px solid green;
+	padding: 30px;
+}
+#bottom {
+	width: 500px;
+	height: 200px;
+	font-size: 20px;
+	margin-left: 100px;
+	margin-top: 50px;
+	border: 3px solid red;
+	padding: 30px;
+}
+
+#right {
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+.margin-left10{
+	margin-left: 10px;
+}
+
+
+.costs{font-size: 30px;
+	margin-bottom: 80px;
+	margin-top: 70px;
+}
+#right-bottom>div{
+	height: 100px;
+	width: 600px;
+	position: relative;
+}
+.expense-name {display: inline-block;
+	font-size: 25px;
+	margin-left:50px;
+	padding-top: 30px;
+}
+
+.expense-value{
+	font-size: 25px;
+	margin-left: 185px;
+	padding-top: 20px;}
+
+.edit{position: absolute;
+	right: 10px;
+	top: 35px;
+	
+}
+.display-none{
+	display: none;
+}
